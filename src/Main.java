@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
         //Programa principal
         Lobo x = new Lobo();
+        Cachorro c = new Cachorro();
         x.emitirSom();
+        c.emitirSom();
     }
 }
