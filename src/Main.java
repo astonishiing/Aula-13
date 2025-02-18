@@ -12,5 +12,7 @@ public class Main {
         c.reagir(true);
         c.reagir(false);
 
+        c.reagir(2, 12.4f);
+        c.reagir(17, 4.2f);
     }
 }
