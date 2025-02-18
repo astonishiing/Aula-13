@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         //Programa principal
-
+        Lobo x = new Lobo();
+        x.emitirSom();
     }
 }
