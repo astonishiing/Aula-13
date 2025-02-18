@@ -5,7 +5,12 @@ public class Main {
         //Programa principal
         Lobo x = new Lobo();
         Cachorro c = new Cachorro();
-        x.emitirSom();
-        c.emitirSom();
+
+        c.reagir("Fofo");
+        c.reagir(11, 45);
+        c.reagir(19, 00);
+        c.reagir(true);
+        c.reagir(false);
+
     }
 }

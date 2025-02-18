@@ -4,8 +4,8 @@ public class Cachorro extends Lobo{
         System.out.println("Au! Au! Au1");
     }
     public void reagir(String frase){
-        if(frase.equals("Toma comida") || frase.equals("Olá")){
-
+        if(frase.equals("Olá") || frase.equals("Fofo")){
+            System.out.println("Abanar e Latir");
         }else {
             System.out.println("Rosnar");
         }
@@ -24,6 +24,7 @@ public class Cachorro extends Lobo{
             System.out.println("Abanar");
         }else {
             System.out.println("Rosnar e Latir");
+            this.emitirSom();
         }
     }
     public void reagir(int idade, float peso){
